@@ -6,14 +6,20 @@
             Title Anime: 
             Jujutsu Kaisen
           </div>
+          <ThumbsCard/>
         </div>
       </div>
   </div>
 </template>
 
 <script>
+import ThumbsCard from './ThumbsCard.vue'
+
 export default {
   name: 'JumboComponent',
+  components: {
+    ThumbsCard,
+  }
 }
 </script>
 
@@ -22,11 +28,12 @@ img {
     width: 100%;
 }
 .jumbotron {
-  height: 600px;
+  height: 70vh;
   background-image: url(https://www.themoviedb.org/t/p/original/8DLpbLeUylcUnE4nTlRC4b6jzNz.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
   
  }
 .jumbo_info {
