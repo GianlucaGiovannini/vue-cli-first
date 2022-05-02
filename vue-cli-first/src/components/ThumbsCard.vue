@@ -35,7 +35,7 @@ export default {
   justify-content: space-around;
   gap: 1rem;
   position: absolute;
-  bottom: 1rem;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   
@@ -43,7 +43,6 @@ export default {
 
 .card  {
   width: calc(100% / 6 - 16px);
-  height: 50px;
   box-shadow: 0 0 10px white;
 }
 
