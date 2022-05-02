@@ -43,12 +43,12 @@ export default {
 
 .card  {
   width: calc(100% / 6 - 16px);
-  box-shadow: 0 0 10px white;
 }
 
 .card img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    box-shadow: 0 -4px 9px white;
 }
 </style>
