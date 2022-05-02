@@ -15,5 +15,6 @@ h1 {
   font-size: 3rem;
   text-align: center;
   color: rgb(8, 8, 110);
+  margin-bottom: 2rem;
 }
 </style>
